@@ -82,3 +82,10 @@ Action when clicking the prefix
 click-action: "SUGGEST_COMMAND:/msg %player_name% "
 ```
 Types: `SUGGEST_COMMAND, RUN_COMMAND, OPEN_URL, COPY_TO_CLIPBOARD`
+
+
+**Developer's Note:**
+```bash
+While most of the project was made by myself and some help from my team,
+this project still utilised the use of Artifical Intelligence in the cleanup & final touches of the code
+```
