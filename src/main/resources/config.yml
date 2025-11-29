@@ -1,0 +1,20 @@
+################################################################################
+# Micheal Services - Property File
+# ------------------------------------------------------------------------------
+# PROPERTY OF: Micheal System Services
+# REDISTRIBUTION: Strictly prohibited. This plugin is proprietary.
+# CONTACT:
+#   Discord: https://micheal.cc/discord
+#   Email: info@micheal.cc
+################################################################################
+
+# === CONFIGURATION ===
+
+# The string to broadcast when chat is cleared
+clear-chat-message: "&aChat has been cleared by an administrator."
+
+# Number of empty lines to send for clear chat
+clear-chat-lines: 100
+
+# Message sent when a player tries to chat while locked
+chat-locked-message: "&cThe chat is currently locked."

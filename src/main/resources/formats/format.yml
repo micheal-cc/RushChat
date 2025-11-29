@@ -1,0 +1,22 @@
+# RushChat Format Configuration
+
+# The default chat format.
+# Supports PAPI placeholders (e.g., %player_name%, %luckperms_prefix%)
+# Supports Hex colors (&#RRGGBB) and Legacy colors (&a)
+chat-format: "%luckperms_prefix% &7%player_name% %luckperms_suffix% &8➠ &f"
+
+# The hover message displayed when hovering over the prefix/name part of the message.
+# Leave empty "[]" to disable.
+hover-message:
+  - "&#ffc900%player_name%"
+  - ""
+  - "&#00FF7F&l$ &fMoney &#00FF7F$%vault_eco_balance_formatted%"
+  - "&#FF4C4C🗡 &fKills &#FF4C4C%statistic_player_kills%"
+  - "&#FF884C☠ &fDeaths &#FF884C%statistic_deaths%"
+  - ""
+  - "&e➠ &l&nCLICK&e to Message"
+
+# The action to perform when clicking the prefix/name.
+# Format: ACTION:VALUE
+# Available Actions: SUGGEST_COMMAND, RUN_COMMAND, OPEN_URL, COPY_TO_CLIPBOARD
+click-action: "SUGGEST_COMMAND:/msg %player_name% "

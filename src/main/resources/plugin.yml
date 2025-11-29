@@ -1,0 +1,25 @@
+name: RushChat
+version: '1.0'
+main: com.rushlabs.rushchat.RushChat
+api-version: '1.21'
+description: Async Chat Formatting Plugin
+authors:
+  - YourName
+
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
+      join-classpath: true
+
+permissions:
+  rushchat.admin:
+    description: Grants admin access over the plugin
+    default: op
+
+commands:
+  rushchat:
+    description: Main command for RushChat
+    usage: /rushchat <reload|clear|lock>
+    permission: rushchat.admin
