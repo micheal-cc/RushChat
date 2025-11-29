@@ -4,7 +4,8 @@
 # Supports PAPI placeholders (e.g., %player_name%, %luckperms_prefix%)
 # Supports MiniMessage (e.g., <gradient>), Hex (&#RRGGBB), and Legacy colors (&a)
 # Use {message} to specify where the chat message content should be placed.
-chat-format: "%luckperms_prefix% &7%player_name% %luckperms_suffix% &8➠ &f{message}"
+# Replace the "&f" before {message} and replace it with your chat color placeholder if using one
+chat-format: "%luckperms_prefix% &f%player_name% %luckperms_suffix%&7➠ &f{message}"
 
 # The hover message displayed when hovering over the prefix/name part of the message.
 # Leave empty "[]" to disable.
